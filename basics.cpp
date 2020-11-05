@@ -2,6 +2,11 @@
 
 int main()
 {
-    std::cout<<"Hello world"<<std::endl;
+    std::cout<<"Foor loop..."<<std::endl;
+    for (int i = 1; i <= 5; i++)
+    {
+        std::cout<<i<<std::endl;
+    }
+    
     return 0;
 }
